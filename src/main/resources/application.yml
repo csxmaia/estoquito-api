@@ -6,3 +6,7 @@ spring:
     password: QWE123QWEbighorse0420
     platform: mysql
     initialization-mode: always
+
+jwt:
+  expiration: 10000
+  secret: TdM2Za9FLIgLjYEsjnVDcOtv4sVKzdplBzJQFKcNtJV74iO

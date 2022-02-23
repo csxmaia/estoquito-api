@@ -1,12 +1,15 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/estoquito
+    url: jdbc:mysql://localhost:3306/csmpdv
     username: root
     password: QWE123QWEbighorse0420
     platform: mysql
     initialization-mode: always
-
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
 jwt:
   expiration: 10000
   secret: TdM2Za9FLIgLjYEsjnVDcOtv4sVKzdplBzJQFKcNtJV74iO
